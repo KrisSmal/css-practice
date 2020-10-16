@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap");
+
+:root {
+    --main-color: black;
+    --accent-color:white;
+    font-family: 'Mukta', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+header-nav .logo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.5rem;
+    text-align: centr;
+}
+
+header-nav .menu-items {
+    flex: 1;
+    justify-content: space-around;
+    disple
+}
+
+
+header-nav .menu-items a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header .menu-items a:hover {
+     border: 1px solid var(--main-color);
+}
+
+@media (min-width: 769px) {
+
+    header .header-nav {
+         display: flex;  
+}
+
+    header .menu-items a {
+         display: flex;
+         align-items: center;
+}
+
+}
+
+header .header-baner {
+    background-image: url(../nature.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+header .header-banner h1 {
+    color: var(--accent-color);
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.5rem;
+}
+
+
+
+/* Controls */
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0;
+    border-radius: 0.12em;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.7s;
+    background-color: transparent;
+}    
+
+.button:hover {
+    color: #000000 ;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.card-button {
+    border-color: #ffffff;
+    color: white;
+}
